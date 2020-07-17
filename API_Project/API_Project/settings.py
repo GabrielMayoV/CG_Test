@@ -25,7 +25,7 @@ SECRET_KEY = '25kwu-cf@d$7%*bdd8hy&k@-5qgh73i)s80(ev^iif99grard%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-vx9jtvag.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['http://django-env.eba-vx9jtvag.us-west-2.elasticbeanstalk.com/']
 
 
 # Application definition
@@ -140,6 +140,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CSRF_COOKIE_SECURE = True
-CSRF_COOKIE_HTTPONLY = True
-SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
+# CSRF_COOKIE_HTTPONLY = True
+# SESSION_COOKIE_SECURE = True
