@@ -25,6 +25,8 @@ def products_list(request):
         data = {'products' : list(products.values('name','value','discount_value','stock'))}
         return JsonResponse(data)
 
+def index(request):
+    return HttpResponse("Hola")
 
 # class insert(View):
 #     def post(self,request):
